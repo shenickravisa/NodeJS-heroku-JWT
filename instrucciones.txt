@@ -1,0 +1,19 @@
+1.- npm init --yes (creacion de package json y inicializar proyecto)
+2.- npm install express --save (instalacion de la dependencia de express)
+3.- crear archivo app.js
+4.- crear y levantar el servidor
+5.- instalar npm install nodemon (es un servidor de escucha)
+6.- instalar npm install morgan (visualizar todas las peticiones en consola las peticiones realizadas)
+7.- instalar npm install cors (configurar servidor para hacer peticiones desde otros domimios)
+8.- creacion de ruta estatica
+9.- npm install --save connect-history-api-fallback
+10.- npm install -D @babel/core @babel/cli @babel/preset-env @babel/node (utilizar las ultima versiones de JS)
+11.- crear archivo babel en la raiz del proyecto y despues agregar en el package json su configuracion
+
+heroku
+12.- crear una cuenta en heroku y descargar heroku cli en caso de no tenerlo https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+13.- abrir heroku y poner 
+>heroku login 
+
+heroku no sabe con cual comando iniciar  por lo cual necesitamos indicarle con cual "start"
+"start": "babel-node app.js --exec"
