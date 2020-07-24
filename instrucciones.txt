@@ -17,3 +17,6 @@ heroku
 
 heroku no sabe con cual comando iniciar  por lo cual necesitamos indicarle con cual "start"
 "start": "babel-node app.js --exec"
+14.- publicar en heroku
+heroku git:remote -a app-mevn-shenick -> se crea el proyecto en heroku
+15.- git push heroku master 
